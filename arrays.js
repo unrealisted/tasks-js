@@ -2,9 +2,9 @@
 
     var
         findElement = function (arr, value) {
-            if(arr.indexOf(value)){
-                return arr.indexOf(value);
-            }
+            return arr.findIndex(function(item){
+                return item == value;
+            })
         },
 
         array,
@@ -188,20 +188,7 @@
                 }
             });
             return nar;
-        },
-
-        swapHeadAndTail = function (arr) {
-
-        }
-
-
-
-
-
-
-
-
-
+        };
 
     console.log(findElement(['Ace', 10, true], 10));
     console.log(generateOdds(7));
@@ -231,15 +218,4 @@
     console.log(distinct([ 'a', 'a', 'a', 'a' ]));
     console.log(selectMany([[1, 2], [3, 4], [5, 6]], "(x) => x"));
     console.log(getElementByIndexes([[1, 2], [3, 4], [5, 6]], [0,0]));
-    console.log();
-    console.log();
-
-
-
-
-
-
-
-
-
 })();
