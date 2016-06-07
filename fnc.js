@@ -31,10 +31,10 @@
     var getget = getPolynom(2, 3 ,5)
 
 
-    /*var memoize = function (func) {
-        var cache = func;
+    var memoize = function (func) {
+        var cache = Math.random();
         return function() {
-            if(cache == func) {
+            if(cache) {
                 return cache;
             }
             else {
@@ -44,9 +44,7 @@
             }
         };
     };
-    var memoizer = memoize(function(){
-        return Math.random();
-    });*/
+    var memoizer = memoize();
 
 
 
@@ -54,6 +52,7 @@
     console.log(doit(1));
     console.log(power2(4));
     console.log(getget());
+    console.log(memoizer());
     console.log(memoizer());
     console.log();
 
