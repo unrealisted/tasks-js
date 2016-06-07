@@ -31,7 +31,7 @@
     var getget = getPolynom(2, 3 ,5)
 
 
-    var memoize = function (func) {
+    /*var memoize = function (func) {
         var cache = func;
         return function() {
             if(cache == func) {
@@ -46,7 +46,7 @@
     };
     var memoizer = memoize(function(){
         return Math.random();
-    });
+    });*/
 
 
 
