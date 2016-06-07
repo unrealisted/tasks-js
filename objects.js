@@ -29,16 +29,9 @@
             if(el){return '#' + value};
         },
     };
-    //cssSelectorBuilder.element.prototype.toStr = function(){
-        //return JSON.stringify(this.el);
-    //};
 
 
-
-
-
-
-
+    
 
     console.log(r.width);
     console.log(r.height);
