@@ -48,6 +48,14 @@
         return x;
     });
 
+    /*var PartFunc = function(a,b,c,d){
+
+    };
+    var PartUsing = function(fn, x){
+
+    };
+    var fn = PartFunc('a','b','c','d');*/
+
 
 
 
